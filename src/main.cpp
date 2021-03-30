@@ -1,3 +1,4 @@
+#include "Automata.h"
 int main()
 {
     Automata aut = Automata();
