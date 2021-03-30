@@ -1,4 +1,3 @@
-#include "Automata.h"
 using namespace std;
 
 bool Automata::check(int val)
