@@ -1,5 +1,3 @@
-using namespace std;
-
 bool Automata::check(int val)
 {
     st = CHECK;
