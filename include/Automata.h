@@ -11,7 +11,7 @@ private:
         COOK
     };
     int cash = 0;
-    string menu[3] = { "Black coffee","Cappuccino","Caffe latte" };
+    const char* menu[3] = { "Black coffee","Cappuccino","Caffe latte" };
     int prices[3] = { 100, 200, 300 };
     State st = OFF;
     bool check(int val);
@@ -24,6 +24,6 @@ public:
     int off();
     void coin(int money);
     int choice(int val);
-    string* etMenu();
+    const char** etMenu();
     int cancel();
 };
