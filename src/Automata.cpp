@@ -4,7 +4,7 @@ bool Automata::check(int val)
 {
     st = CHECK;
     bool F = false;
-    if (val <= menu->length())
+    if (val <= 3)
         if (prices[val - 1] <= cash) F = true;
     return F;
 }
@@ -58,7 +58,7 @@ int Automata::choice(int val)
     }
     return 0;
 }
-string* Automata::etMenu()
+const char** Automata::etMenu()
 {
     return menu;
 }
